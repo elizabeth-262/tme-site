@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Engagement Study | Home</title>
+    <!--CSS Reference-->
+    <link rel="stylesheet" href="style.css"/>
+    <!--Favicon-->
+    <link rel="icon" href="images/favicon.png" type="image/icon type">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/2ea6ea8792.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main">
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="images/logo-colored.png" alt"" class"logo" href="index.html">
+                </a>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="active-study.html">Active Study</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img src="images/menu.svg" alt="" class="menu-btn">
+            </nav>
+            <div class="main-content">
+                <h1 class="intro-heading">Manga Engagement Study</h1>
+                <p>Research Team @ Dr. Kang Lee's Development Lab</p>
+            </div>
+        </div>
+    </div>
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h1>Active Studies</h1>
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="images/service-1.png" alt="">
+                    <h3>In-person Teen Manga Study</h3>
+                    <p>This study examines teenagers' engagement with manga. It's held synchronously at our OISE lab, and participants will recieve a complimentary manga for taking part in the study.</p>
+                    <a href="active-study.html">
+                        <button class="btn btn-primary">Learn More</button>
+                    </a> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="questions">
+        <div class="container">
+            <h1>Intrested in Participating?</h1>
+            <p>Check if you're eligible!</p>
+            <a href="active-studies.html">
+                <button class="btn btn-primary">Criteria & Information</button>
+            </a>
+        </div>
+    </section>
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>About Us</h4>
+                <h1>Led by PhD student, Si Jia Wu, the Manga Engagement Study at the University of Toronto investigates the interactions between teenagers and Japanese comics (manga). The research seeks to understand how young and mature readers, engage with manga.</h1>
+                <a href="team.html">
+                    <button class="btn btn-primary">Our Team</button>
+                </a>
+            </div>
+            <div class="about-image">
+                <img src="images/about.png">
+            </div>
+        </div>
+    </section>
+    <section id="testimonial">
+        <div class="container">
+            <img src="images/quote.png" alt=""/>
+            <h1>"Participating in the manga engagement study was an eye-opening experience. It was fascinating to see how in-depth analysis of manga can reveal such nuanced insights into reader engagement. Highly recommend it to anyone interested in manga and its impact!"</h1>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>© 2024 Manga Engagement Team</p>
+            <i class="fa-brands fa-tiktok"></i>
+            <p>@kangleelab.manga</p>
+        </div>
+    </footer>
+
+    <script>
+        const navBtn = document.querySelector('.menu-btn')
+        const navList = document.querySelector('.nav-list')
+
+        navBtn.addEventListener('click', function() {
+            navList.classList.toggle('active')
+        });
+    </script>
+
+</body>
+</html>
