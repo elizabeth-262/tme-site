@@ -235,7 +235,11 @@ nav {
     font-size: 23px;
 } 
 #about-us img {
-    border-radius: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+#about-us img:hover {
+    transform: scale(1.05);
 }
 #about-us .container .about-content h4 {
     font-family: 'Biko', sans-serif;
