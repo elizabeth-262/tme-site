@@ -288,7 +288,7 @@ footer i{
     padding-left: 10px;
     padding-right: 10px;
 }
-/* Mobile Optimization */
+/* Mobile Optimization 430px */
 @media screen and (max-width: 430px){
     /* Header */
     .main-content .intro-heading {
