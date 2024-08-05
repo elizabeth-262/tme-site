@@ -9,7 +9,7 @@ The Manga Engagement Study at the University of Toronto investigates the interac
 
 ## Link to Website
 
-[tbd]
+[Link](https://mangaengagementstudy.netlify.app)
 
 ## Date Finalized
 Ongoing from July 2024
