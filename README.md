@@ -5,11 +5,11 @@ The Manga Engagement Study at the University of Toronto investigates the interac
 
 ## Reflection + Process
 
-[tbd]
+[Notion Documentation](https://elizabeth-cay.notion.site/Manga-Engagement-Study-Website-9e915cc83d8248869ccea3ff552b23b8)
 
 ## Link to Website
 
-[Link](https://mangaengagementstudy.netlify.app)
+[Web App](https://mangaengagementstudy.netlify.app)
 
 ## Date Finalized
 Ongoing from July 2024
