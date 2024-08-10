@@ -180,11 +180,11 @@ nav {
 .service h3 {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 28px;
+    font-size: 26px;
 }
 .service h2 {
     margin-bottom: 10px;
-    font-size: 28px;
+    font-size: 26px;
 }
 .service p {
     margin-top: 10px;
@@ -286,14 +286,14 @@ footer img {
     .serivce h3 {
         margin-top: 10px;
         margin-bottom: 10px;
-        font-size: 25px;
+        font-size: 30px;
 
     }
     /* Eligibility Criteria Text*/
     .service h2 {
         margin-top: -160px; 
         margin-bottom: 10px;
-        font-size: 30px;
+        font-size: 28px;
     }
     .service p {
         margin-bottom: 20px;
@@ -330,18 +330,10 @@ footer img {
 }
 /* Mobile Optimization 393px */
 @media screen and (max-width: 393px){
-    .service h2 {
-        margin-left: 10px;
-        font-size: 30px;
-    }
-    .service h3 {
-        margin-left: 10px;
-        font-size: 30px;
-    }
-    .service p {
-        margin-left: 10px;
-    }
     .service img {
         max-width: 360px;
+    }
+    .section-title h1 {
+        font-size: 40px;
     }
 }

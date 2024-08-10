@@ -386,7 +386,19 @@ footer img {
     .service img {
         max-width: 360px;
     }
+    .section-title h1 {
+        font-size: 40px;
+    }
+    .section-title .line {
+        width: 220px;
+    }
     .ra-service {
         max-width: 360px;
+    }
+    .ra-section-title h1 {
+        font-size: 40px;
+    }
+    .ra-section-title .line {
+        width: 300px;
     }
 }
