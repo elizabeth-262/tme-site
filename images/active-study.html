@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Engagement Study | Our Study</title>
+    <!--CSS Reference-->
+    <link rel="stylesheet" href="active-study.css"/>
+    <!--Favicon-->
+    <link rel="icon" href="images/favicon.png" type="image/icon type">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/2ea6ea8792.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <div id="main">
+            <div class="container">
+                <nav>
+                    <a href="index.html">
+                        <img src="images/logo-colored.png" alt"" class"logo" href="index.html">
+                    </a>
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="active-study.html">Our Study</a></li>
+                        <li><a href="team.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <img src="images/menu.svg" alt="" class="menu-btn">
+                </nav>
+                <div class="main-content">
+                    <h1 class="intro-heading">Our Study</h1>
+                    <p>Information and Eligibility Criteria</p>
+                </div>
+            </div>
+        </div>
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h1>In-person Teen Manga Study</h1>
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="images/study-1.png" alt="">
+                    <h3>Description</h3>
+                    <p>This study aims to understand how teenagers engage with manga stories. During the study, you will be given manga chapters to read and a survey to complete. More detailed information will be provided in our follow-up email after signing up.</p>
+                </div>
+                <div class="service">
+                    <h2>Eligibility Criteria</h2>
+                    <p>- Between ages 13-17<br>
+                    - Have read manga before<br>
+                    <h3>Additional Information</h3>
+                    <p>Our lab is located at the Ontario Institute for Studies in Education in downtown Toronto. The study takes approximately 1-1.5 hours. Upon completion, participants will receive a free manga volume and travel reimbursement.</p>
+                    <a href="https://uoftaphd.qualtrics.com/jfe/form/SV_dnxaGhDfxh2rh0G?source=Website">
+                        <button class="btn btn-service-1" href="">Sign Up</button>
+                    </a>
+                </div>
+            </div>
+        </div> 
+    </section> 
+        <footer>
+            <div class="container">
+                <p>© 2024 Manga Engagement Team</p>
+                <i class="fa-brands fa-tiktok"></i>
+                <p>@kangleelab.manga</p>
+            </div>
+        </footer>
+    
+        <script>
+            const navBtn = document.querySelector('.menu-btn')
+            const navList = document.querySelector('.nav-list')
+    
+            navBtn.addEventListener('click', function() {
+                navList.classList.toggle('active')
+            });
+        </script>
+
+
+</body>
+</html>

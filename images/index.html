@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Engagement Study | Home</title>
+    <!--CSS Reference-->
+    <link rel="stylesheet" href="style.css"/>
+    <!--Favicon-->
+    <link rel="icon" href="images/favicon.png" type="image/icon type">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/2ea6ea8792.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main">
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="images/logo-colored.png" alt"" class"logo" href="index.html">
+                </a>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="active-study.html">Our Study</a></li>
+                    <li><a href="team.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img src="images/menu.svg" alt="" class="menu-btn">
+            </nav>
+            <div class="main-content">
+                <h1 class="intro-heading">Manga Engagement Study</h1>
+                <p>Research Team at Dr. Kang Lee's Development Lab and UofT</p>
+            </div>
+        </div>
+    </div>
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h1>Our Study</h1>
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="images/service-1.png" alt="">
+                    <h3>In-person Teen Manga Study</h3>
+                    <p>This study examines teenagers' engagement with manga. It's held synchronously at our OISE lab, and participants will receive a complimentary manga for taking part in the study.</p>
+                    <a href="active-study.html">
+                        <button class="btn btn-primary">Learn More</button>
+                    </a> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="questions">
+        <div class="container">
+            <h1>Interested in Participating?</h1>
+            <a href="active-study.html">
+                <button class="btn btn-primary">Check If You're Eligible!</button>
+            </a>
+        </div>
+    </section>
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>About Us</h4>
+                <h1>Led by PhD student, Si Jia Wu, the Manga Engagement Study at the University of Toronto investigates the interactions between teenagers and Japanese comics. The research seeks to understand how young readers engage with manga stories.</h1>
+                <a href="team.html">
+                    <button class="btn btn-primary">Meet Our Team</button>
+                </a>
+            </div>
+            <div class="about-image">
+                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@kangleelab.manga/video/7400790937930190085" data-video-id="7400790937930190085" style="max-width: 400px;min-width: 325px;" > <section> <a target="_blank" title="@kangleelab.manga" href="https://www.tiktok.com/@kangleelab.manga?refer=embed">@kangleelab.manga</a> If you&#39;re interested in participating in our manga study, click the link in our bio for more information! ✨📚🧠 <a title="psychology" target="_blank" href="https://www.tiktok.com/tag/psychology?refer=embed">#psychology</a> <a title="laboratory" target="_blank" href="https://www.tiktok.com/tag/laboratory?refer=embed">#laboratory</a> <a title="manga" target="_blank" href="https://www.tiktok.com/tag/manga?refer=embed">#manga</a> <a title="research" target="_blank" href="https://www.tiktok.com/tag/research?refer=embed">#research</a> <a title="uoft" target="_blank" href="https://www.tiktok.com/tag/uoft?refer=embed">#uoft</a> <a title="toronto" target="_blank" href="https://www.tiktok.com/tag/toronto?refer=embed">#toronto</a> <a target="_blank" title="♬ original sound - Manga Team" href="https://www.tiktok.com/music/original-sound-7400790949062920965?refer=embed">♬ original sound - Manga Team</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>© 2024 Manga Engagement Team</p>
+            <i class="fa-brands fa-tiktok"></i>
+            <p>@kangleelab.manga</p>
+        </div>
+    </footer>
+
+    <script>
+        const navBtn = document.querySelector('.menu-btn')
+        const navList = document.querySelector('.nav-list')
+
+        navBtn.addEventListener('click', function() {
+            navList.classList.toggle('active')
+        });
+    </script>
+
+</body>
+</html>

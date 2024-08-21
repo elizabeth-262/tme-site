@@ -1,0 +1,323 @@
+/* Fonts */
+@font-face {
+    font-family: 'Altone';
+    src: url('fonts/Altone.ttf');
+}
+@font-face {
+    font-family: 'Washtime';
+    src: url('fonts/Washtime.ttf');
+}
+@font-face {
+    font-family: 'Biko';
+    src: url('fonts/Biko.otf');
+}
+/* Desktop, iPad Optimization */
+:root {
+    --primary: #000000;
+    --secondary: rgba(79, 215, 253, 0.968);
+    --white: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Biko';
+}
+#main {
+    background: linear-gradient(to bottom, rgba(79, 215, 253, 0.968), rgba(0, 0, 0, 0.712)), url("images/main.jpg");
+    min-height: 70vh;
+    background-position: bottom center;
+    background-size: cover;
+}
+a { 
+    text-decoration: none;
+}
+.main-content h1{
+    font-family: 'Washtime';
+}
+.container {
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+}
+#main .container img {
+    max-height: 70px;
+}
+section {
+    margin: 80px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    align-items: center;
+}
+.nav-list a {
+    color: var(--white);
+    font-size: 20px;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    color: var(--white);
+}
+.main-content .intro-heading {
+    font-size: 75px;
+    text-align: center;
+}
+.main-content p {
+    max-width: 500px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+.menu-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;
+    width: 30px;
+}
+/* Contact Us Section */
+.section-title-1 h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 0;
+}
+.section-title-1 .line {
+    width: 370px;
+    height: 4px;
+    border: 10px;
+    background: var(--secondary);
+    margin: auto;
+    margin-top: 15px;
+}
+.services-1 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.service-1 {
+    width: 450px;
+    margin-bottom: 20px;
+}
+.service-1 h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.service-1 h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.service-1 p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.service-1 img {
+    max-width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+.service-1 img:hover {
+    transform: scale(1.05);
+}
+.btn.btn-service-1 {
+    background: #aff3ff;
+    border: none;
+}
+.btn.btn-service-2 {
+    background: #aff3ff;
+    border: none;
+}
+/* Interested Section */
+.section-title-2 h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 0;
+}
+.section-title-2 .line {
+    width: 370px;
+    height: 4px;
+    border: 10px;
+    background: var(--secondary);
+    margin: auto;
+    margin-top: 15px;
+}
+.services-2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.service-2 {
+    width: 1000px;
+    align-items: center;
+}
+.service-2 h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.service-2 p {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+/* Footer */
+footer {
+    display: flex;
+    margin-top: -50px;
+    align-items: center;
+    justify-content: center;
+}
+footer .container {
+    display: flex;
+    padding: 40px 16px;
+    align-items: center;
+    justify-content: center;
+}
+footer i {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer img {
+    display: none;
+}
+/* Mobile Optimization */
+@media screen and (max-width: 430px){
+    /* Header */
+    #main {
+        min-height: 60vh;
+        margin: auto;
+    }
+    .main-content .intro-heading {
+        font-size: 65px;
+        text-align: center;
+    }
+    .main-content p {
+        max-width: 500px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .menu-btn {
+        display: block;
+    }
+    .nav-list {
+        align-items: left;
+        flex-direction: column;
+        background: gray;
+        position: absolute;
+        top: 0;
+        right: -900px;
+        width: 80%;
+        height: 100vh;
+        padding-top: 80px;
+        transition: all 0.5s ease;
+    }  
+    .nav-list.active {
+        right: 0;
+    }
+    .nav-list a {
+        color: var(--white);
+        font-size: 30px;
+    }
+    .btn.btn-primary{
+        margin-bottom: 30px;
+        margin-top: 150px;
+    }
+    /* Contact Us Section */
+    .services-1 {
+        margin-left: 15px;
+        margin-bottom: -90px;
+    }
+    .section-title-1 .line {
+        width: 270px;
+        height: 4px;
+        border: 10px;
+        background: var(--secondary);
+        margin: auto;
+        margin-top: 15px;
+        flex-direction: column;
+    }
+    .serivce-1 h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 25px;
+
+    }
+    .service-1 h2 {
+        margin-top: -160px; 
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    .service-1 p {
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .btn.btn-service-1 {
+        background: #aff3ff;
+        border: none;
+        margin-bottom: -20px;
+    }
+    .btn.btn-service-2 {
+        background: #aff3ff;
+        border: none;
+    }
+    .services-1 img {
+        max-width: 400px;
+        margin-bottom: 70px;
+    }
+    /* Interested Section */
+    .section-title-2 .line {
+        width: 370px;
+    }
+    /* Footer */
+    footer .container {
+       flex-direction: column; 
+       gap: 16px;
+       margin-top: -25px;
+    }
+    footer img {
+        display: contents;
+    }
+    footer img {
+        display: contents;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        max-height: 200px;
+    }
+}
+/* Mobile Optimization 393px */
+@media screen and (max-width: 393px){
+    .service-1 img {
+        max-width: 360px;
+    }
+    .section-title-1 h1 {
+        font-size: 40px;
+    }
+    .section-title-2 h1 {
+        font-size: 40px;
+    }
+    .section-title-2 .line {
+        width: 300px;
+    }
+}
